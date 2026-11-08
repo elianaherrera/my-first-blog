@@ -55,6 +55,7 @@ negro, el color es la temporada.
 | **Logotipo horizontal** (`DJ FUGA` en una línea) | Headers, banners, firmas de mail, line-ups, cualquier espacio ancho y bajo. |
 | **Isotipo** (la G espejada sola) | Avatares, stickers, bordados, favicon, marca de agua, cualquier espacio cuadrado. |
 | **Sello `FUGA`** (destello + palabra) | Tamaños chicos, etiquetas de merch, sellos sobre foto. |
+| **Cápsula** (`DJ FUGA` dentro de una píldora, sólida o en contorno) | Stickers, etiquetas de merch, sello sobre foto. Es la pieza más resistente del sistema: se sigue leyendo a 40 px. |
 | **Contorno** | Para apoyar sobre fotos y video sin tapar la imagen. |
 
 ---
@@ -149,6 +150,7 @@ marca-dj-fuga/
 | Logo sobre fondo claro | `svg/logotipo-principal-negro.svg` |
 | Imprenta, merch, bordado, vinilo de corte | cualquier archivo de `svg/` |
 | Pegarlo arriba de una foto | `svg/contorno-blanco.svg` |
+| Stickers, etiquetas de merch, sello | `svg/capsula-solida-blanco.svg` |
 | Mandárselo a un productor o a un boliche | `png/dj-fuga-horizontal-blanco.png` |
 
 Los `.svg` son el **original**. Siempre que se pueda, usar esos: no pierden calidad
