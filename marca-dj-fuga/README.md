@@ -140,6 +140,7 @@ requiere registro previo.
 marca-dj-fuga/
 ├── svg/     vectores — escalan a cualquier tamaño sin perder calidad
 ├── png/     mapas de bits con fondo transparente, listos para usar
+├── video/   la pieza animada, en los cuatro formatos, con su guion
 └── rutas/   exploración: rutas probadas y descartadas, y piezas fuera de uso
 ```
 
@@ -153,6 +154,8 @@ marca-dj-fuga/
 | Imprenta, merch, bordado, vinilo de corte | cualquier archivo de `svg/` |
 | Pegarlo arriba de una foto | `svg/contorno-blanco.svg` |
 | Stickers, etiquetas de merch, sello | `svg/capsula-solida-blanco.svg` |
+| Abrir un set, un Reel o una story | `video/dj-fuga-animacion-9x16.mp4` |
+| Poner el logo arriba de un video | `video/dj-fuga-animacion-alfa.mov` |
 | Mandárselo a un productor o a un boliche | `png/dj-fuga-principal-blanco.png` |
 | Header, banner o firma de mail (espacio ancho y bajo) | `svg/capsula-contorno-blanco.svg` |
 
