@@ -63,16 +63,21 @@ negro, el color es la temporada.
 
 | Color | Hex | Rol |
 |---|---|---|
-| **Negro Fuga** | `#0C0C0E` | Color base de la marca. No es negro puro: tiene un punto de azul que lo hace menos duro en pantalla. |
-| **Blanco Flash** | `#F5F4F0` | Logo sobre fondo oscuro. Blanco cálido, no clínico. |
-| **Magenta Pulso** | `#FF2E7E` | Acento de noche y de club. Detalles, titulares, fondos de flyer. |
-| **Lima Señal** | `#D7FF4F` | Acento secundario. Para contrastar con el magenta en drops, merch o temporadas. |
+| **Negro Fuga** | `#0C0C0E` | Fondo base. No es negro puro: tiene un punto de azul que lo hace menos duro en pantalla. |
+| **Blanco Flash** | `#F5F4F0` | El logo. Blanco cálido, no clínico. |
+| **Azul Cabina** | `#111C44` | **Fondo alternativo.** Reemplaza al negro cuando una pieza necesita separarse: una fiesta puntual, una temporada, un lanzamiento. |
+| **Magenta Pulso** | `#FF2E86` | **Detalle.** Subrayados, filetes, números, llamados a la acción, el giro de la G en la animación. |
 
-**Regla de uso:** el 80% de la comunicación va en blanco y negro. El color entra como
-acento, no como fondo por defecto. Si todo es rosa, el rosa deja de significar algo.
+**Los dos fondos no se mezclan.** Una pieza es negra o es azul, nunca las dos cosas.
+El negro es el que manda; el azul se usa cuando hace falta distinguir algo del resto.
 
-Los dos acentos **nunca se usan juntos en la misma pieza** salvo que sean la idea
-central de la campaña.
+**El magenta es detalle, no fondo.** Entra en porciones chicas: una línea, un dato, un
+botón. Si ocupa más de una décima parte de la pieza, dejó de ser acento. Un flyer entero
+en magenta es un flyer, no la marca.
+
+**Contraste.** El magenta sobre negro y sobre azul pasa el mínimo de accesibilidad para
+texto (4,6:1 y 4,7:1). Sobre blanco no: ahí el magenta va solo en bloques grandes o en
+fondos, nunca en texto chico.
 
 ---
 
@@ -111,13 +116,14 @@ usar el **isotipo** solo.
 **Lo que no se hace:**
 
 - No enderezar la G. Es el logo, no un error.
-- No poner el `DJ` al costado de `FUGA`. Va siempre apilado: debajo (preferido, igual que el
-  logotipo principal) o arriba.
+- No poner el `DJ` adelante ni al costado de `FUGA`. Va **siempre apilado**: debajo
+  (preferido, igual que el logotipo principal) o arriba. No hay excepciones ni versión
+  en una sola línea.
 - No estirar ni comprimir: escalar siempre proporcional.
 - No cambiar el espaciado entre letras. El aire entre la U y la G está calculado para
   que la barra de la G no se pegue a la U.
 - No ponerle sombra, degradé, contorno doble ni efecto 3D.
-- No usarlo en colores fuera de la paleta.
+- No usarlo en colores fuera de la paleta, ni mezclar los dos fondos en una misma pieza.
 - No apoyarlo sobre una foto clara o cargada sin usar la versión contorno, o sin bajarle
   el brillo a la imagen.
 - No rehacer el logotipo escribiéndolo con la fuente: usar siempre estos archivos.
@@ -150,6 +156,7 @@ marca-dj-fuga/
 |---|---|
 | Foto de perfil de Instagram / Spotify / SoundCloud | `png/dj-fuga-avatar-negro-1080.png` |
 | Logo sobre fondo oscuro | `svg/logotipo-principal-blanco.svg` |
+| Logo sobre el fondo azul | `svg/logotipo-principal-fondo-azul.svg` |
 | Logo sobre fondo claro | `svg/logotipo-principal-negro.svg` |
 | Imprenta, merch, bordado, vinilo de corte | cualquier archivo de `svg/` |
 | Pegarlo arriba de una foto | `svg/contorno-blanco.svg` |

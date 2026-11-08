@@ -32,4 +32,8 @@ en una lista de mensajes— A se sigue leyendo y B ya se empasta. Por eso B entr
 como versión grande y no como reemplazo.
 
 Los archivos de esta carpeta son exploración, no la marca final. La marca está
-en `../svg/` y `../png/`.
+en `../svg/`, `../png/` y `../video/`.
+
+El logotipo horizontal (`DJ FUGA` en una línea) **se eliminó del proyecto**: ponía el DJ
+adelante de FUGA y la regla del sistema es que el DJ va siempre apilado, arriba o abajo.
+Para espacios anchos y bajos va la cápsula; donde ni esa entre, el sello FUGA.
