@@ -55,7 +55,7 @@ negro, el color es la temporada.
 | **Logotipo horizontal** (`DJ FUGA` en una línea) | Headers, banners, firmas de mail, line-ups, cualquier espacio ancho y bajo. |
 | **Isotipo** (la G espejada sola) | Avatares, stickers, bordados, favicon, marca de agua, cualquier espacio cuadrado. |
 | **Sello `FUGA`** (destello + palabra) | Tamaños chicos, etiquetas de merch, sellos sobre foto. |
-| **Cápsula** (`DJ FUGA` dentro de una píldora, sólida o en contorno) | Stickers, etiquetas de merch, sello sobre foto. Es la pieza más resistente del sistema: se sigue leyendo a 40 px. |
+| **Cápsula** (`FUGA` con `DJ` debajo, dentro de un rectángulo redondeado; sólida o en contorno) | Stickers, etiquetas de merch, sello sobre foto. Es la pieza más resistente del sistema: se sigue leyendo a 40 px. |
 | **Contorno** | Para apoyar sobre fotos y video sin tapar la imagen. |
 
 ---
@@ -112,6 +112,8 @@ usar el **isotipo** solo.
 **Lo que no se hace:**
 
 - No enderezar la G. Es el logo, no un error.
+- No poner el `DJ` al costado de `FUGA`. Va siempre apilado: debajo (preferido, igual que el
+  logotipo principal) o arriba.
 - No estirar ni comprimir: escalar siempre proporcional.
 - No cambiar el espaciado entre letras. El aire entre la U y la G está calculado para
   que la barra de la G no se pegue a la U.
