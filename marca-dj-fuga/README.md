@@ -52,7 +52,6 @@ negro, el color es la temporada.
 | Pieza | Cuándo se usa |
 |---|---|
 | **Logotipo principal** (apilado, con destello y bajada "DJ") | Portadas, afiches, merch, presentaciones. Es la versión completa. |
-| **Logotipo horizontal** (`DJ FUGA` en una línea) | Headers, banners, firmas de mail, line-ups, cualquier espacio ancho y bajo. |
 | **Isotipo** (la G espejada sola) | Avatares, stickers, bordados, favicon, marca de agua, cualquier espacio cuadrado. |
 | **Sello `FUGA`** (destello + palabra) | Tamaños chicos, etiquetas de merch, sellos sobre foto. |
 | **Cápsula** (`FUGA` con `DJ` debajo, dentro de un rectángulo redondeado; sólida o en contorno) | Stickers, etiquetas de merch, sello sobre foto. Es la pieza más resistente del sistema: se sigue leyendo a 40 px. |
@@ -103,10 +102,10 @@ letra F. Nada entra ahí: ni texto, ni bordes, ni otro logo.
 | Versión | Mínimo en pantalla | Mínimo impreso |
 |---|---|---|
 | Logotipo principal | 180 px de ancho | 35 mm |
-| Logotipo horizontal | 220 px de ancho | 45 mm |
+| Cápsula | 150 px de ancho | 30 mm |
 | Isotipo | 32 px | 10 mm |
 
-Por debajo del mínimo del principal, usar el **horizontal**. Por debajo del horizontal,
+Por debajo del mínimo del principal, usar la **cápsula**. Por debajo de la cápsula,
 usar el **isotipo** solo.
 
 **Lo que no se hace:**
@@ -139,8 +138,9 @@ requiere registro previo.
 
 ```
 marca-dj-fuga/
-├── svg/   vectores — escalan a cualquier tamaño sin perder calidad
-└── png/   mapas de bits con fondo transparente, listos para usar
+├── svg/     vectores — escalan a cualquier tamaño sin perder calidad
+├── png/     mapas de bits con fondo transparente, listos para usar
+└── rutas/   exploración: rutas probadas y descartadas, y piezas fuera de uso
 ```
 
 **Qué archivo agarrar según el caso:**
@@ -153,7 +153,8 @@ marca-dj-fuga/
 | Imprenta, merch, bordado, vinilo de corte | cualquier archivo de `svg/` |
 | Pegarlo arriba de una foto | `svg/contorno-blanco.svg` |
 | Stickers, etiquetas de merch, sello | `svg/capsula-solida-blanco.svg` |
-| Mandárselo a un productor o a un boliche | `png/dj-fuga-horizontal-blanco.png` |
+| Mandárselo a un productor o a un boliche | `png/dj-fuga-principal-blanco.png` |
+| Header, banner o firma de mail (espacio ancho y bajo) | `svg/capsula-contorno-blanco.svg` |
 
 Los `.svg` son el **original**. Siempre que se pueda, usar esos: no pierden calidad
 nunca y cualquier imprenta los puede abrir.
