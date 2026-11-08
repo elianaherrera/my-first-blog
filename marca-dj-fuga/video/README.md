@@ -23,6 +23,7 @@ espectador ve el concepto ocurrir en lugar de que se lo expliquen.
 | Dónde | Archivo |
 |---|---|
 | Feed de Instagram, carrusel, post cuadrado | `dj-fuga-animacion-1x1.mp4` |
+| Lo mismo, sobre el fondo azul | `dj-fuga-animacion-1x1-azul.mp4` |
 | Stories, Reels, TikTok | `dj-fuga-animacion-9x16.mp4` |
 | YouTube, pantalla de boliche, intro de set | `dj-fuga-animacion-16x9.mp4` |
 | Superponer sobre un video (edición) | `dj-fuga-animacion-alfa.mov` |
@@ -46,3 +47,12 @@ Acepta parámetros por URL: `?w=1080&h=1920` fija el encuadre, `&alpha=1` saca e
 
 Las letras están convertidas a curvas dentro del propio archivo: no depende de tener
 ninguna tipografía instalada.
+
+Acepta también `&fondo=azul`, que es como se generó la variante sobre Azul Cabina.
+
+## Paleta en movimiento
+
+El único color de la pieza es el **magenta** (`#FF2E86`): aparece en la línea que barre
+el cuadro al principio y en la estela que sigue a la G cuando gira. Nada más. El resto
+es blanco sobre el fondo, negro o azul. Es la misma regla que el manual: el magenta es
+detalle, no fondo.
